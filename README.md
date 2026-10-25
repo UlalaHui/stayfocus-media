@@ -1,2 +1,2 @@
 # stayfocus-media
-pproved images here
+Approved images here
