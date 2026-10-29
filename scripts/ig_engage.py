@@ -41,7 +41,8 @@ def ig_post(path, body):
 
 def kw_match(text, kw):
     kw = (kw or "").strip(" 「」\"“”")
-    return bool(kw) and re.search(rf"(?<![\w]){re.escape(kw)}(?![\w])", text or "", re.I) is not None
+    plural = "s?" if re.fullmatch(r"[A-Za-z]+", kw or "") else ""   # people write PROMPTS as often as PROMPT
+    return bool(kw) and re.search(rf"(?<![\w]){re.escape(kw)}{plural}(?![\w])", text or "", re.I) is not None
 
 
 def load(path, default):
