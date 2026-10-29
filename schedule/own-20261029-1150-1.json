@@ -1,0 +1,49 @@
+{
+ "date": "own-20261029-1150-1",
+ "version": "en-dark",
+ "at": "2026-10-29T20:30:00+08:00",
+ "caption": "Opera's browser now runs AI on your laptop 🧠 WebAI, 27 Oct 2026:\n\n1️⃣ WebAI is a proposed web standard (Opera says Google and Microsoft back it) that lets sites and extensions use AI models running on your device.\n2️⃣ It comes with 3 APIs: Prompt, Decision and Semantic Embeddings. No API key, no separate app.\n3️⃣ Opera says page data can stay on your device, and developers skip per-request cloud fees.\n4️⃣ It ships with 6 demo extensions, like a quiz on the article you just read.\n5️⃣ Early preview in Opera One on Windows 64-bit and Apple silicon Macs, opt-in. Not on Intel Macs, Linux or Windows on Arm.\n\nOur take: local AI is the privacy pitch, but speed depends on your hardware. 🤔\n\nLike ❤️ → share with a friend 🔁 → comment 1, 2 or 3 💬\n1 Yes, keep my data on-device  2 Only for some tasks  3 No, cloud is fine\n\nWorld getting louder? @stay_focus_ing helps you focus on what really matters.\n\nkeywords: opera webai, local ai browser, opera one local ai, run ai locally, on-device ai browser\n\n#3tayFocu3 #Opera #WebAI #LocalAI #AI",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide2.mp4",
+   "type": "VIDEO",
+   "fallback": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide2.jpg"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide5.mp4",
+   "type": "VIDEO",
+   "fallback": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide5.jpg"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261029-1150-1/en-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-10-29T11:55:31.429653+00:00",
+ "by": "cloud"
+}
