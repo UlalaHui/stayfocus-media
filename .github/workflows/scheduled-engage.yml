@@ -1,0 +1,20 @@
+# Sends the keyword tips by private reply to people who comment on our posts. Runs in the public stayfocus-media repo.
+# Mode is engage/config.json ("dry" default, "on", "off"). Needs the IG_TOKEN repo secret.
+name: scheduled-engage
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+concurrency: scheduled-engage
+permissions:
+  contents: write
+jobs:
+  engage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reply to keyword comments
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 scripts/ig_engage.py
