@@ -1,0 +1,21 @@
+# Publishes posts scheduled from Telegram, so the Mac can be off.
+# Lives in the public stayfocus-media repo (public repos get free Actions minutes).
+# Installed and kept in sync by the Mac publisher (/offline on). Needs the IG_TOKEN repo secret.
+name: scheduled-publish
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+concurrency: scheduled-publish
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish due posts
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 scripts/ig_publish.py
