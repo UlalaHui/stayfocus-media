@@ -1,0 +1,49 @@
+{
+ "date": "own-20261031-hallucination",
+ "version": "zh-light",
+ "at": "2026-10-31T14:02:25+00:00",
+ "caption": "AI 為什麼會一本正經亂講？OpenAI 說了原因 🤖 七件事，看完就懂。\n\n1️⃣ 考試只算答對、猜錯不扣分，所以 AI 愛猜\n2️⃣ 它學的是「接下一個字」，訓練資料沒有真假標籤\n3️⃣ 冷門的事最容易編錯，論文題目和生日都曾答錯\n4️⃣ OpenAI 說 GPT‑5 明顯變少，但仍會發生\n5️⃣ OpenAI 的測試：o4-mini 答錯 75%，gpt-5-thinking-mini 答錯 26%，後者 52% 的題選擇不作答\n6️⃣ 我們的建議：重要的事自己查、請它說明出處、名字日期數字先核對\n7️⃣ 提問技巧（Anthropic 官方文件）：先允許它說「不知道」、每個說法附原文、同題問兩次比對。能降低，不能完全避免\n\n資料來源：OpenAI《Why language models hallucinate》，2025 年 9 月 5 日；Anthropic〈Reduce hallucinations〉文件。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI 幻覺, AI 亂講, ChatGPT 幻覺, 為什麼 AI 會亂編, OpenAI 研究\n\n#3tayFocu3 #AI #AI幻覺 #ChatGPT #OpenAI",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide1.mp4",
+   "type": "VIDEO",
+   "fallback": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide1.jpg"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide2.mp4",
+   "type": "VIDEO",
+   "fallback": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide2.jpg"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261031-hallucination/zh-light/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-10-31T14:00:25.523852+00:00",
+ "by": "cloud"
+}
