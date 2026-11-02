@@ -1,0 +1,35 @@
+{
+ "date": "own-20261102-gemini4-carbon",
+ "version": "zh-dark",
+ "at": "2026-11-02T15:17:34+00:00",
+ "caption": "🚨 Google 新 AI Gemini 4 Carbon 發布！！在第三方智慧指數登上第一，但這場排名其實很接近 🔥😱\n\n1️⃣ 排名：Artificial Analysis 智慧指數 Carbon 59 分，Claude Opus 5.5 為 58，GPT-6 Astra 為 57，上一代 Argon 為 50\n\n2️⃣ Google 說在 17 項跑分中拿下 15 項第一（Google 自己公布）\n\n3️⃣ 贏在哪：GraphWalks 96.2%（對手最高 71.8%）、Vending-Bench 2 利潤 $16.5K（對手 $15.5K）\n\n4️⃣ 輸在哪：FrontierSWE 2 為 61.2%（Astra 65.5%）、OSWorld-2.1 為 81.5%（Opus 87.2%）\n\n5️⃣ 價格與使用：每百萬 token 輸入 $2／輸出 $10（初期價，之後 $4／$20）；目前先開放給部分資安防禦人員，沒有公開日期，一般人現在可用的是 Argon\n\n⚠️ 注意：幻覺率從 4% 升到 11%（AA-Omniscience），資安分數多為 Google 自己公布，目前獨立驗證只涵蓋其中一項\n\n你覺得第一名還能坐多久？留言告訴我！！👇\n\n跑分多為廠商或第三方公布，僅供參考。圖片：Wikimedia Commons（Google 總部：David Nagle，CC BY-SA 4.0；Sundar Pichai：Maurizio Pesce，CC BY 2.0）。\n資料來源：VentureBeat、Engadget、Artificial Analysis、explainx.ai（2026/10/28–29）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Google, 谷歌, Gemini, Gemini 4, Carbon, Gemini 4 Carbon, Claude, Claude Opus, GPT-6, OpenAI, AI排行榜, AI跑分, 大型語言模型, LLM, 基準測試, 幻覺, AI新聞, 科技新聞, 資安, 生成式AI, AI模型\n\n#3tayFocu3 #AI #Google #Gemini #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261102-gemini4-carbon/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-02T15:15:34.262301+00:00",
+ "by": "cloud"
+}
