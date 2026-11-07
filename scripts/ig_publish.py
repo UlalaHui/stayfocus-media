@@ -2,6 +2,7 @@
 """Publishes due posts from schedule/<date>.json (written by the Mac publisher when you tap Schedule).
 
 Each file: {"date","version","at":"<ISO time with offset>","caption","urls":[...],"status":"pending"}
+  or, for a Reel: {"date","version","at","caption","reel":{"url":<mp4>,"cover":<jpg>},"status":"pending"}
 status: pending -> publishing -> published | failed.  (cancelled/expired are set by the Mac / this script.)
 Only the standard library. The Instagram token comes from the IG_TOKEN secret and is never printed.
 """
@@ -33,8 +34,22 @@ def wait_ready(cid, tries=30):
     raise RuntimeError(f"container {cid} not ready after {tries * 5}s")
 
 
+def publish_reel(me, job):
+    """job["reel"] = {"url": <mp4>, "cover": <jpg, optional>}: one Reel, also shown in the feed grid."""
+    r = job["reel"]
+    params = {"media_type": "REELS", "video_url": r["url"], "caption": job["caption"], "share_to_feed": "true"}
+    if r.get("cover"):
+        params["cover_url"] = r["cover"]
+    cid = ig("POST", f"{me}/media", params)["id"]
+    wait_ready(cid, 120)  # Reels can take a few minutes to process
+    media_id = ig("POST", f"{me}/media_publish", {"creation_id": cid})["id"]
+    return ig("GET", media_id, {"fields": "permalink"}).get("permalink", media_id)
+
+
 def publish(job):
     me = ig("GET", "me", {"fields": "user_id"})["user_id"]
+    if job.get("reel"):
+        return publish_reel(me, job)
     children = []
     for u in job["urls"]:
         if isinstance(u, str):  # older schedule files: plain image URLs
