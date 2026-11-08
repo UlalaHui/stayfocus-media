@@ -4,11 +4,13 @@
  "at": "2026-11-08T21:25:00+08:00",
  "caption": "😴 AI 也會「做夢」了！！Anthropic 公開 Claude agent 的記憶秘密：有記憶後得分從 0.655 衝到 0.838，提升約 28% 🚀🧠🔥\n\nAnthropic 11/6 發表研究〈The components of agent memory〉，重點整理：\n\n1⃣ 記憶＝從經驗學到、跨對話保留的文字筆記；不是改模型權重、不是單次對話內學習、也不是 compaction 摘要\n\n2⃣ 「做夢 Dreaming」：閒置時離線讀「現有記憶庫＋最多 100 份舊對話紀錄」，產出全新整理過的記憶庫，原檔不動（靈感：人腦睡覺時重播白天經歷）\n\n3⃣ CL-Bench 1.0 資料庫任務：Claude Opus 5.5 沒記憶 0.655 → 有記憶 0.838；舊的 Sonnet 4.6 被提示「先讀記憶、測試猜想」後，0.330 → 0.641，幾乎翻倍\n\n4⃣ 反直覺：規定 Opus 5「只記失敗」，記憶帶來的增益反而少了 0.234，強模型讓它自己判斷記什麼更好\n\n5⃣ Pokémon Red：Sonnet 3.7 記了 413 個檔只拿 1 枚徽章，Fable 5 只記 9 個檔＋global.md 拿 4 枚；一條寫錯的筆記讓 Claude 掉下懸崖，做夢對照紀錄修正後，第 1,935 步抵達 Cerulean City\n\n6⃣ 做夢建 wiki：約 35 萬個檔案、25 道題，只看 wiki 從 13% 升到 48%；wiki＋搜尋 61%，只搜尋 53%，每題還省約 2 萬 tokens\n\n7⃣ 法律合約實測：改成每份合約一頁、逐字引用，關鍵事實從 41/57（72%）→ 57/57（100%）\n\n⚠️ 但不是萬能：wiki 可能比原文還大、每次載入的記憶要精簡、做夢要花算力\n\n你會讓自己的 AI agent 每晚「做夢」整理記憶嗎？留言告訴我！！👇\n\n不追蹤，你可能再也看不到我們！！\n\n資料來源：Anthropic〈The components of agent memory〉（2026-11-06）；Claude 平台 Dreams 文件（研究預覽）。\n圖片（Wikimedia Commons）：Dario Amodei / TechCrunch（CC BY 2.0）；Original Game Boy / Sammlung der Medien und Wissenschaft（CC BY 4.0）；Starry night sky / Eddie basler（CC BY-SA 4.0）；Data center racks / PiDatacenters（CC BY-SA 4.0）；Wikimedia Foundation servers / Victorgrigas（CC BY-SA 3.0）；Law books / Tony Webster（CC BY 2.0）；Datacenter server racks / Carl Lender（CC BY 2.0）。\nPokémon 為 Nintendo / Creatures / GAME FREAK 之商標，本片與其無關。\n\nkeywords: Anthropic, Claude, AI agent, agent記憶, AI記憶, Dreaming, AI做夢, Claude Opus 5.5, Managed Agents, 長期記憶, 長程任務, CL-Bench, Pokémon Red, 寶可夢, AI玩寶可夢, 知識wiki, 記憶整理, sleep-time compute, AI新聞, AI解釋, 人工智慧, 大語言模型, LLM, 科技新聞, Reels\n\n#3tayFocu3 #AI #Claude #Anthropic #AIagent",
  "urls": [],
- "status": "publishing",
+ "status": "published",
  "created": "2026-11-08T12:29:12.649027+00:00",
  "by": "cloud",
  "reel": {
   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261108-agent-memory-reel/zh-dark/reel.mp4",
   "cover": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261108-agent-memory-reel/zh-dark/cover.jpg"
- }
+ },
+ "link": "https://www.instagram.com/reel/Dfe3ODJCV2B/",
+ "finished": "2026-11-08T13:27:32.207718+00:00"
 }
