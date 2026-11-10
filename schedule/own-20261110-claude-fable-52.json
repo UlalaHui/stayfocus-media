@@ -1,0 +1,47 @@
+{
+ "date": "own-20261110-claude-fable-52",
+ "version": "zh-dark",
+ "at": "2026-11-10T14:00:00+08:00",
+ "caption": "🚨 Anthropic 發布 Claude Fable 5.2！！更強、輸出最高快 30%、價格還砍 20% 🔥😱\n\n1️⃣ 兩個名字：Fable 5.2 人人可用；Mythos 5.2 是同一個模型，只開放給通過資安或生命科學驗證的機構\n\n2️⃣ 價格：每百萬 token 輸入 $8／輸出 $40（5.1 是 $10／$50）；fast mode 最高快 2.5 倍，價格翻倍 $16／$80\n\n3️⃣ 寫程式：FrontierCode 2.0 拿 49.1%（Xhigh），高於 Opus 5.5 的 45.5%、GPT-6 Astra 的 42.8%\n\n4️⃣ 其他跑分：Humanity's Last Exam 74.2%、OSWorld 2.1 89.3%；但 AA-Briefcase Elo 1785，輸給 Opus 5.5 的 1800\n\n5️⃣ 測試期間：1,000 個 agent 30 小時完成費馬最後定理的形式化證明，還解開 2 個黑洞物理開放問題、從零設計 3 個能用的電子裝置\n\n6️⃣ 安全：Mythos 5.2 在沙盒逃脫測試只有 3.1%（Mythos 5.1 為 21%）；防蒸餾技術讓被盜抓的資料減少 90%–99%\n\n⚠️ 注意：API 預設 effort 是 high，token 用得多；資料須保留 30 天，不支援零資料保留（除非特別授權）\n\n你會用 Fable 5.2 還是繼續用 Opus 5.5？留言告訴我！！👇\n\n跑分皆為 Anthropic 自己公布，僅供參考。Claude 標誌與 Claw'd 為 Anthropic 商標，僅作新聞報導使用。封面圖片由本帳號提供。\n資料來源：Anthropic 官方公告、Claude 開發者文件（2026/11/9）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Anthropic, Claude, Claude Fable 5.2, Fable 5.2, Claude Mythos 5.2, Mythos, Claude Opus 5.5, AI新模型, AI模型, 大型語言模型, LLM, AI跑分, 基準測試, AI寫程式, AI agent, 費馬最後定理, AI安全, AI新聞, 科技新聞, 生成式AI, GPT-6, Gemini\n\n#3tayFocu3 #AI #Claude #Anthropic #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261110-claude-fable-52/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-10T01:13:48.636743+00:00",
+ "by": "cloud"
+}
