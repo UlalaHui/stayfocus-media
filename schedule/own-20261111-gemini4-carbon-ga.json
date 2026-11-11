@@ -1,0 +1,47 @@
+{
+ "date": "own-20261111-gemini4-carbon-ga",
+ "version": "zh-dark",
+ "at": "2026-11-11T13:30:00+08:00",
+ "caption": "🚨 Google 把最強模型 Gemini 4 Carbon 正式開放了！！付費開發者和 AI Ultra 訂閱戶現在就能用 🔥😱\n\n1️⃣ 從預覽到開放：10/28 發布時只給部分資安防禦人員，11/10 起付費開發者、企業和 Google AI Ultra 訂閱戶都能用\n\n2️⃣ 哪裡用：Gemini API 付費方案（Google AI Studio、Gemini for business），AI Ultra 訂閱戶可在 Gemini App、搜尋的 AI Mode、Antigravity 使用（陸續開放中）\n\n3️⃣ 價格：每百萬 token 輸入 $2／輸出 $10，早鳥價只到 11/30；12/1 起翻倍到 $4／$20\n\n4️⃣ 對比 Claude：Claude Fable 5.2 是 $8／$40，Carbon 每 token 標價只有 1/4（12/1 後是一半）；但 Carbon 想得比較久，每個任務實際花費要自己測\n\n5️⃣ 擅長：長時程 agent 任務、複雜寫程式、資安與科學研究；Google 表示首批用戶在短時間內就找到零時差漏洞\n\n6️⃣ Argon 還是 Carbon：兩個每 token 價格一樣，Google 建議大部分寫程式和日常工作用 Argon，Carbon 留給最難的任務\n\n🎁 另外：Google 免費開放給 10,000 名科學家使用 6 個月\n\n你會先拿 Carbon 還是 Claude 來跑你的長任務？留言告訴我！！👇\n\n價格為 Google 與 Anthropic 官方公布的每百萬 token 標價（美元）。Google、Gemini 標誌為 Google 商標，僅作新聞報導使用。圖片由本帳號提供。\n資料來源：Google 官方部落格（2026/10/28、11/10）、Engadget（11/10）、Anthropic 定價文件（11/9）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Google, 谷歌, Gemini, Gemini 4, Gemini 4 Carbon, Gemini 4 Argon, Argon, Google AI Ultra, Antigravity, AI Mode, Gemini API, Claude, Claude Fable 5.2, Anthropic, AI新模型, AI價格, 大型語言模型, LLM, AI agent, AI寫程式, 資安, AI新聞, 科技新聞\n\n#3tayFocu3 #AI #Google #Gemini #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-gemini4-carbon-ga/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-11T03:44:57.490725+00:00",
+ "by": "cloud"
+}
