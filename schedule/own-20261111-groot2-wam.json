@@ -1,0 +1,47 @@
+{
+ "date": "own-20261111-groot2-wam",
+ "version": "zh-dark",
+ "at": "2026-11-11T18:30:00+08:00",
+ "caption": "🚨 Nvidia 發表 GR00T 2！！機器人看人類影片就能學會新任務，5 個示範成功率衝到 95% 🤖🔥😱\n\n1️⃣ 是什麼：11/9 在機器人學習大會 CoRL 發表的開放「世界動作模型」（World Action Model, WAM），建立在 Nvidia Cosmos 上，程式碼 12 月開放\n\n2️⃣ WAM vs 傳統 VLA：VLA 是「看圖＋聽指令 → 直接出動作」；WAM 是同時預測「未來畫面」和「達成它的動作」，先想像結果再倒推動作\n\n3️⃣ 怎麼做到：一個 diffusion transformer 一起去噪未來畫面和機器人動作，以 G1 人形機器人上的 Turbo 版為例，每秒規劃一次、一次 1.6 秒，再以 50Hz 執行\n\n4️⃣ 資料：402,730 小時人類第一視角影片，機器人遙控只有 23,500 小時；其中 10 萬小時人類影片已開源\n\n5️⃣ 成績（Nvidia 自家數據）：50 個沒做過的新任務，0 示範 40%、1 示範 71%、5 示範 95%；5 示範不到 3 分鐘機器人資料\n\n6️⃣ 還做不到：zero-shot 多半步驟對但精度不夠；接觸密集任務要再加強化學習（RL）才從 40–76% 升到 88–96%；同時生成畫面和動作，運算更重\n\n7️⃣ 誰在用：Foxconn 用在伺服器製造、Siemens 評估工業應用，Nexuni 測洗衣、MicroAGI 用 RL 版換網路線\n\n💡 技術人觀點：少資料、快速換新任務選 WAM；資料多、機體固定，純 VLA 可能更直接穩定。對台灣團隊，可以先用人類作業影片預訓練，再用極少機器人資料落地，但延遲、安全、失敗恢復還是要自己處理\n\n你覺得機器人「看影片學做事」多久會進到工廠？留言告訴我！！👇\n\n成績與數據皆為 Nvidia 自家公布，尚無獨立驗證。NVIDIA 標誌為 NVIDIA 商標，僅作新聞報導使用。\n圖片：黃仁勳 CES 2025 主題演講（Pronoia / Wikimedia Commons, CC0）；Unitree G1（Sayanesy / Wikimedia Commons, CC0）。\n資料來源：Nvidia 官方部落格（2026/11/9）、Nvidia GR00T 2 研究頁、Nvidia「什麼是 World Action Model」說明頁（2026/11）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Nvidia, 輝達, GR00T 2, GR00T, World Action Model, WAM, 世界動作模型, VLA, Vision-Language-Action, 機器人, 人形機器人, 實體AI, Physical AI, 具身智能, diffusion, 世界模型, Cosmos, Isaac Lab, CoRL, Foxconn, 鴻海, AI新聞, 科技新聞\n\n#3tayFocu3 #AI #Nvidia #機器人 #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261111-groot2-wam/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-11T06:37:41.811834+00:00",
+ "by": "cloud"
+}
