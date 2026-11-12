@@ -1,0 +1,47 @@
+{
+ "date": "own-20261112-wam-vs-vla",
+ "version": "zh-dark",
+ "at": "2026-11-12T18:30:00+08:00",
+ "caption": "🚨 機器人大腦路線戰開打！！Runway Praxis-1、MBZUAI PAN 2 兩天內接連開源，WAM vs VLA 到底差在哪？選錯就是燒錢 🤖🔥😱\n\n1️⃣ 兩條控制路線＋一個模擬器：VLA 是「影像＋指令 → 直接出動作」；WAM 先預測未來畫面，再從模型內部表徵讀出動作；另外，純 World Model（如 PAN 2）只模擬後果，不直接控制機器人\n\n2️⃣ VLA 真實狀況：「看懂」靠網路圖文預訓練的 VLM，但動作能力還是吃機器人示範；延遲也不一定低，7B 的 OpenVLA 單步約 6Hz，常用 action chunking 一次出一段動作\n\n3️⃣ Praxis-1（WAM）：影片主幹＋動作專家＋每種機器人一層投影；一次輸出 24 步、1.6 秒動作（15Hz）；約 270 億參數 MoE，11/11 以 Apache 2.0 開源\n\n4️⃣ 資料賭注：中期訓練 58% 人類第一視角影片、20% 一般影片、真實機器人影片只有 18%（報導引述 Runway）；需要多少機器人資料微調，Runway 未公開\n\n5️⃣ 延伸：PAN 2（World Model 當模擬器）：LLM 先用文字寫出事件、時間、鏡頭，290 億參數擴散模型再渲染成影片，讓 agent 先預演；IFM 自測拿掉 LLM 只剩 8.7% 步驟正確，合體後 75.1%\n\n6️⃣ 工程取捨：WAM 吃便宜影片、中間結果較好檢查，但多一層預測、運算較重、剛開源；VLA 路徑較短、生態成熟，但機器人資料成本高\n\n💡 技術人觀點：影片多、機器人資料少 → WAM；要低延遲、資料夠、機體固定 → 優化過的 VLA；要先驗證多步計畫 → 把 World Model 當模擬器。成績大多是自報，先在自己的任務上測\n\n你的團隊會押哪條路線？WAM 還是 VLA？留言告訴我！！👇\n\nPraxis-1、PAN 2 成績皆為官方自報，尚無獨立驗證；部分規格來自媒體報導。\n圖片：UR3 協作機械臂示意圖（Caio.st.oliveira / Wikimedia Commons, CC BY-SA 4.0），非 Praxis-1 實機。\n資料來源：Runway 發表（2026/9/30）與開源報導（2026/11/11）、MBZUAI IFM PAN 2 發表（2026/11/10，經媒體報導）、VLA 綜述 arXiv 2505.04769、Yotta Labs VLA 推論測試（2026/8）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, World Action Model, WAM, 世界動作模型, VLA, Vision-Language-Action, 視覺語言動作模型, World Model, 世界模型, Runway, Praxis-1, PAN 2, MBZUAI, 機器人, 機器人學習, 具身智能, Physical AI, 實體AI, 擴散模型, OpenVLA, 開源模型, AI工程師, 科技新聞\n\n#3tayFocu3 #AI #機器人 #WorldModel #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261112-wam-vs-vla/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-12T03:16:43.351417+00:00",
+ "by": "cloud"
+}
