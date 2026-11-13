@@ -1,0 +1,47 @@
+{
+ "date": "own-20261113-outlook-outage",
+ "version": "zh-dark",
+ "at": "2026-11-13T14:20:00+08:00",
+ "caption": "🚨 Outlook 大當機超過 12 小時！！全球都可能收不到信，連 Copilot 都停了 😱📧\n\n1️⃣ 發生什麼事：美東 11/12 中午過後開始，大量用戶無法收發信、打不開信箱；Downdetector 的 Outlook 回報峰值約 13 萬則（微軟事件 EX1550543）📧\n\n2️⃣ 範圍：微軟說任何地區的 Microsoft 365 都可能受影響，列出 Exchange Online、Teams、SharePoint、Copilot、Planner、To Do、Intune、Defender 💥\n\n3️⃣ 微軟官方說法：不是流量變多，而是一批伺服器「意外」下線，剩下的被壓垮；伺服器上「負責建立安全連線的程序」撐不住，就停止處理請求 🧐\n\n4️⃣ 為什麼修這麼久：伺服器重開後「一收到流量又無回應」；微軟已回滾一項和事故開始時間「吻合」的網路設定變更，並說沒有惡意攻擊跡象。正式根本原因報告還沒出 🔁\n\n5️⃣ 微軟有多重要：Microsoft 365 付費商用席位超過 4.5 億（2026/1 財報），Copilot 超過 3,000 萬付費席位；信箱一倒，會議、檔案、AI 一起卡住。今年 1/22 北美也當機約 8-10 小時 🌍\n\n🗣️ 你公司全靠微軟嗎？今天有被影響嗎？留言告訴我！！👇\n\n截至台北時間 11/13 13:40，微軟仍未宣布完全恢復；最新狀態以微軟官方為準。\n資料來源：Microsoft 365 Status、ABC News、NBC News、NBC Chicago、Al Jazeera、Downdetector（經媒體引述）、Microsoft 財報。\n照片：Coolcaesar（CC BY-SA 4.0）、Atomic Taco（CC BY-SA 2.0），Wikimedia Commons。\n僅為新聞整理，非投資建議。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: Outlook當機, 微軟當機, Microsoft 365, Outlook, Teams, Copilot, Exchange Online, 微軟, Microsoft, 收不到信, email當機, 雲端服務, 伺服器, 系統當機, 科技新聞, IT, 資訊安全, 辦公軟體, SharePoint, Outlook down, Microsoft outage\n\n#3tayFocu3 #微軟 #Outlook #Microsoft365 #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-outlook-outage/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-13T05:59:52.359346+00:00",
+ "by": "cloud"
+}
