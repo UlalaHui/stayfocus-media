@@ -1,0 +1,47 @@
+{
+ "date": "own-20261113-gemini4-hydrogen",
+ "version": "zh-dark",
+ "at": "2026-11-13T12:20:00+08:00",
+ "caption": "🚨 Google 又出新模型！！Gemini 4 Hydrogen 11/12 上線：思考深度變成一個參數，再配 Orchestrator 讓 Carbon 規劃、Hydrogen 執行 🤖⚡🔥\n\n1️⃣ Hydrogen 是什麼：由 Gemini 4 Carbon 適配而來的快速執行模型，可單獨用或當 sub-agent；1M token 上下文，Gemini API 有免費層\n\n2️⃣ 比 3.8 Flash 強很多：Terminal-Bench 4.1 從 18.2% 到 57%，預設 high 完成任務快約 2.5 倍，虛構宣稱少 5 倍以上（Google 自測）\n\n3️⃣ 4 個思考層級：low / medium / high（預設）/ xhigh；思考 token 按輸出價計費，也算進 max_output_tokens\n\n4️⃣ 層級＝成本：Artificial Analysis 指數 xhigh 54 分 $3.16／題、high 51 分 $1.87、medium 41 分 $0.80、low 27 分 $0.29；xhigh 輸出 token 幾乎翻倍\n\n5️⃣ 對比 Carbon：Hydrogen $1.50 / $7.50 每百萬 token；Carbon 11/30 前 $2 / $10，12/1 起 $4 / $20 → 每 token 只要 Carbon 的 37.5%\n\n6️⃣ Orchestrator：Carbon 先唯讀規劃，Hydrogen 改程式、跑測試，卡住就交回 Carbon；成功率接近純 Carbon，平均少用 24% 額度、快 19%（Google 自測，目前限 AI Ultra）\n\n7️⃣ 要注意：Terminal-Bench 4.1（57.0% vs 63.9%）、OSWorld 仍輸 Claude Sonnet 5.5；贏 Argon 只差 1 分（51 vs 50）\n\n💡 技術人觀點：四個層級都用 eval 測，選達標的最低層級；low–medium 做抽取和工具呼叫，high 寫程式，high 失敗才 xhigh，架構判斷才上 Carbon；把「卡住」定義成可量測的條件；要省錢就降 thinking_level，別把 max_output_tokens 砍太小\n\n你的 agent 會怎麼分工？全程用最強模型，還是規劃／執行拆開？留言告訴我！！👇\n\n多數成績為 Google 自測，尚無完整獨立驗證；Intelligence Index 為 Artificial Analysis 數據（經 OfficeChai 報導）。\n圖片由本帳號提供，Google、Gemini 標誌為 Google 商標，僅作新聞用途。\n資料來源：Google 官方部落格（2026/11/12）、DeepMind Gemini 4 Hydrogen model card、Google Antigravity 部落格、Google AI Studio 價格頁與 thinking 文件（2026/11/13 查詢）、SiliconANGLE、OfficeChai（2026/11/12）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Google, Gemini, Gemini 4 Hydrogen, Gemini 4 Carbon, Gemini API, Google AI Studio, Antigravity, Orchestrator, 思考層級, thinking level, AI Agent, 多模型路由, 模型路由, LLM, 大型語言模型, AI 成本, token 成本, AI 寫程式, Terminal-Bench, AI工程師, 科技新聞\n\n#3tayFocu3 #AI #Gemini #AIAgent #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini4-hydrogen/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-13T01:55:55.054650+00:00",
+ "by": "cloud"
+}
