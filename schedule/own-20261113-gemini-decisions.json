@@ -1,0 +1,47 @@
+{
+ "date": "own-20261113-gemini-decisions",
+ "version": "zh-dark",
+ "at": "2026-11-13T18:20:00+08:00",
+ "caption": "🚨 AI 不寫字了，只做決定！！Google 11/11 推出 Gemini Decisions API，一次問 1,000 題、只回機率，輸出 token 免費 🤖🔥😱\n\n1️⃣ 它是什麼：Gemini Decision 1 不生成文字，只回是非題、單選題（2–255 個選項）、評分題的機率＋0 到 1 的信心分數；文字、圖片、音訊、影片、PDF 共用同一份輸入，上限 262,144 token\n\n2️⃣ 為什麼快：所有問題在一次 forward pass 裡直接替選項打分，不逐字生成；端到端 150–250 ms（16K token 以內，Google 自報），1 題到 100 題延遲幾乎不變\n\n3️⃣ 價格：每百萬輸入 token $0.10，輸出 $0；共享輸入每次請求只算一次。Google 稱比 Gemini 3.5 Flash-Lite 便宜近 5 倍。但不支援快取與 Batch，免費版資料會被用來改進產品\n\n4️⃣ Jev 是誰：新創 TypeSafe 9 月中推出的決策模型，開出這個新賽道；3 週後融資 8.7 億美元、估值 75 億美元（Bloomberg）。OpenAI 10 月也推出 Decisions API，同樣 $0.10，單次最多 400 題\n\n5️⃣ Gemini vs Jev：Jev 更便宜（$0.042），但以文字為主（圖片仍是早期功能）；Gemini 吃全多模態、一次 1,000 題、26 萬 token 長內容。延遲都只有廠商自報，沒有第三方同場測試\n\n6️⃣ 跟舊方法比：自己訓 BERT 分類器最便宜但每個任務要重訓；生成模型＋JSON 最彈性但慢、貴、機率沒校準；讀 logprob 很多 API 不給；reranker／reward model 只做單一種打分\n\n💡 技術人觀點：把 agent 的路由、政策檢查、工具選擇、審核拆給決策模型；低信心就 fallback 給人或更強模型，門檻要每個模型各自調；選項寫不清楚，機率就不準；它不會告訴你為什麼，要理由還是得用生成模型\n\n你的 agent 會把哪一步換成決策模型？路由、審核還是評分？留言告訴我！！👇\n\nGoogle、TypeSafe、OpenAI 的延遲、價格、成本與校準說法皆為官方自報，尚無獨立同場測試；Jev 部分規格來自第三方文件與整理。\n圖片：Google 總部與 Gemini 圖示（Hui 提供）。\n資料來源：Google 官方部落格（2026/11/11）、Google AI Studio Decisions API 文件／模型卡／價格頁、OpenRouter Jev 文件、OpenAI Decisions 文件、Bloomberg（2026/10/9）、SiliconANGLE（2026/11/11）、Sebastian Raschka（2026/9）。\n僅為新聞整理。\n\n世界越來越吵，@stay_focus_ing 陪你 Stay Focused。\n\nkeywords: AI, 人工智慧, Google, Gemini, Gemini Decision 1, Gemini Decisions API, Decisions API, 決策模型, Jev, TypeSafe, OpenAI Decisions API, GPT-6 Luna, AI Agent, 代理人, 模型路由, 內容審核, 分類模型, 機率校準, LLM, 大型語言模型, AI工程師, API 價格, 科技新聞\n\n#3tayFocu3 #AI #Gemini #AIAgent #科技新聞",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide1.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide2.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide3.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide4.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide5.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide6.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide7.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide8.jpg",
+   "type": "IMAGE"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/UlalaHui/stayfocus-media/main/media/own-20261113-gemini-decisions/zh-dark/slide9.jpg",
+   "type": "IMAGE"
+  }
+ ],
+ "status": "pending",
+ "created": "2026-11-13T02:02:04.912154+00:00",
+ "by": "cloud"
+}
